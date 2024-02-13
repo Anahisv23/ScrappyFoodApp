@@ -34,7 +34,7 @@ const RecipeResults = () => {
   return (
     <div className="recipe-results">
       <Link to="/" className="link-to-home">
-        <PiCookingPotThin /> Scrap Cook
+      🥕Scrap Cook
       </Link>
       <h1>Your search results</h1>
       {/* <h3>Filter by diet</h3>

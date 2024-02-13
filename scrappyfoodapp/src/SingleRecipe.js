@@ -13,7 +13,7 @@ const SingleRecipe = () => {
   return (
     <div className="single-recipe">
       <Link to="/" className="link-to-home">
-        <PiCookingPotThin /> Scrap Cook
+      🥕 Scrap Cook
       </Link>
       <h2 className="home-h2">{singleRecipe.label} Recipe</h2>
       <img

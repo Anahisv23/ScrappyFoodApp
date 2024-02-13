@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div className="App">
       <Link to="/" className="link-to-home">
-        <PiCookingPotThin /> Scrap Cook
+      🥕Scrap Cook
       </Link>
       <h2 className="home-h2">Lost on what to prepare for a meal when you only have scraps?</h2>
       <RecipeSearchBar />
