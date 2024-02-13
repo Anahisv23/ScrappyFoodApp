@@ -1,0 +1,167 @@
+.App {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+body {
+  background-color: #fcfaf4;
+  font-family: "DM Serif Display", serif;
+  font-style: normal;
+}
+
+img {
+  border-radius: 5px;
+}
+
+.home-h2 {
+  font-size: xx-large;
+}
+
+.home-h3 {
+  font-size: x-large;
+}
+
+li {
+  font-size: large;
+}
+
+.single-recipe-p {
+  font-size: large;
+}
+
+.recipe-name {
+  background-color: #d8e183;
+  padding: 10px;
+  border-radius: 2px;
+  margin-top: 0px;
+}
+
+input {
+  border-radius: 4px;
+  padding: 8px;
+  width: 300px;
+  border: 1px solid #ccc;
+  background-color: white;
+  font-family: "Roboto Slab", serif;
+  font-family: "Sora", sans-serif;
+  font-style: italic;
+}
+
+select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  width: 300px;
+}
+
+button {
+  background-color: #d8e183;
+  border-radius: 10px;
+  margin: 20px 0px 20px 0px;
+  width: 100px;
+  padding: 8px;
+  color: black;
+  font-family: "DM Serif Display", serif;
+  font-style: normal;
+}
+
+.search-inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.link-to-recipe {
+  color: #2e4d3f;
+}
+
+.recipe-results {
+  text-align: center;
+}
+
+.link-to-home {
+  color: rgb(101, 98, 98);
+  font-size: 50px;
+  text-decoration: none;
+  margin-top: 50px;
+  font-size: 70px;
+}
+
+.error-message {
+  color: rgb(209, 32, 32);
+}
+
+#popover-basic {
+  background-color: #d8e183;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+/* phone screen */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: #fcfaf4;
+  }
+  .search-results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "DM Serif Display", serif;
+    font-style: normal;
+  }
+  .individual-recipes {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "DM Serif Display", serif;
+    font-style: normal;
+    margin: 20px;
+  }
+
+  .single-recipe {
+    background-color: #fcfaf4;
+    font-family: "DM Serif Display", serif;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+}
+
+/* laptop screen */
+@media screen and (min-width: 600px) {
+  .search-results {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    font-family: "DM Serif Display", serif;
+    font-style: normal;
+  }
+  .individual-recipes {
+    padding-top: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "DM Serif Display", serif;
+    font-style: normal;
+    margin: 40px;
+  }
+
+  .single-recipe {
+    background-color: #fcfaf4;
+    display: flex;
+    font-family: "DM Serif Display", serif;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+}
