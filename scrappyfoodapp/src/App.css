@@ -155,6 +155,11 @@ button {
     font-family: "DM Serif Display", serif;
     font-style: normal;
     margin: 40px;
+    transition: all 0.3s ease;
+  }
+
+  .individual-recipes:hover {
+    transform: scale(1.1);
   }
 
   .single-recipe {

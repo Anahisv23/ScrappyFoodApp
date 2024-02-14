@@ -62,7 +62,7 @@ const RecipeResults = () => {
                   onClick={() => navigateToRecipe(recipe.recipe)}
                   src={recipe.recipe.image}
                 />
-                <h3 className="recipe-name">{recipe.recipe.label} <br></br>Co2 Class Grade • {recipe.recipe.co2EmissionsClass}</h3>
+                <h3 className="recipe-name">{recipe.recipe.label} • <br></br>Co2 Class Grade • {recipe.recipe.co2EmissionsClass}</h3>
               </div>
             );
           })
