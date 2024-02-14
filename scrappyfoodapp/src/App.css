@@ -16,6 +16,14 @@ img {
   border-radius: 5px;
 }
 
+a:hover {
+  color: rgb(152, 184, 152);
+}
+
+button:hover {
+  background-color: rgb(152, 184, 152);
+}
+
 .home-h2 {
   font-size: xx-large;
 }
