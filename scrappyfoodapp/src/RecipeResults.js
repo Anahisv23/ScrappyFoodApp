@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useNavigate } from "react-router";
+import { useNavigate, useParams } from "react-router";
 import { Link } from "react-router-dom";
 import { PiCookingPotThin } from "react-icons/pi";
 
@@ -7,6 +7,8 @@ const RecipeResults = () => {
   const [recipeResults, setRecipeResults] = useState([]);
   const [diet, setDiet] = useState("");
   const navigate = useNavigate();
+  const { recipeSearch } = useParams()
+  console.log("recipesearch", recipeSearch)
 
   useEffect(() => {
     const getRecipes = localStorage.getItem("recipes");
@@ -34,9 +36,9 @@ const RecipeResults = () => {
   return (
     <div className="recipe-results">
       <Link to="/" className="link-to-home">
-      🥕Scrap Cook
+        🥕Scrap Cook
       </Link>
-      <h1>Your search results</h1>
+      <h1>Your search results for <br></br>...<br></br>{recipeSearch}</h1>
       {/* <h3>Filter by diet</h3>
       <select
         name="diet-option"

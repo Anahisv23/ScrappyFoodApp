@@ -13,7 +13,7 @@ const router = createBrowserRouter([
     element: <SingleRecipe />,
   },
   {
-    path: "/recipes",
+    path: "/recipes/:recipeSearch",
     element: <RecipeResults />,
   },
 ]);

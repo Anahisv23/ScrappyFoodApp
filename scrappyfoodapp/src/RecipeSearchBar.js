@@ -47,9 +47,8 @@ const RecipeSearchBar = () => {
   };
 
   const navigateToRecipes = (recipes) => {
-    console.log("recipes", recipes);
     localStorage.setItem("recipes", JSON.stringify(recipes));
-    navigate("/recipes");
+    navigate(`/recipes/${recipeSearch}`);
   };
 
   const handleRecipeSubmit = async (e) => {
