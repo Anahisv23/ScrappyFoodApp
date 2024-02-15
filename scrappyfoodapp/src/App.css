@@ -92,14 +92,6 @@ button {
   margin-top: 50px;
 }
 
-.link-to-home {
-  /* color: rgb(101, 98, 98); */
-  color: #2e4d3f;
-  font-size: 50px;
-  text-decoration: none;
-  font-size: 70px;
-}
-
 .error-message {
   color: rgb(209, 32, 32);
 }
@@ -122,6 +114,34 @@ button {
     font-family: "DM Serif Display", serif;
     font-style: normal;
   }
+
+  input {
+    border-radius: 4px;
+    padding: 8px;
+    width: 300px;
+    height: 50px;
+    border: 1px solid #ccc;
+    background-color: white;
+    font-family: "Roboto Slab", serif;
+    font-family: "Sora", sans-serif;
+    font-style: italic;
+  }
+
+  select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    height: 50px;
+    width: 300px;
+  }
+
+  .link-to-home {
+    color: #2e4d3f;
+    font-size: 60px;
+    text-decoration: none;
+  }
+
   .individual-recipes {
     padding-top: 20px;
     display: flex;
@@ -168,6 +188,12 @@ button {
 
   .individual-recipes:hover {
     transform: scale(1.1);
+  }
+
+  .link-to-home {
+    color: #2e4d3f;
+    text-decoration: none;
+    font-size: 70px;
   }
 
   .single-recipe {
