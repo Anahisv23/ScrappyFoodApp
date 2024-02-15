@@ -6,6 +6,17 @@
   margin-top: 50px;
 }
 
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.yellow {
+  color: darkgoldenrod;
+}
 body {
   background-color: #fcfaf4;
   font-family: "DM Serif Display", serif;

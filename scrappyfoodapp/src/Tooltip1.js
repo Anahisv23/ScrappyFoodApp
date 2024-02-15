@@ -10,7 +10,7 @@ const popover = (
         </p>
       </div>
       <div>
-        <h4>Low Carbon Footprint (A or Green):</h4>
+        <h4 className="green">Low Carbon Footprint (A or Green):</h4>
         <p>
           Indicates low levels of CO2 emissions relative to a benchmark or
           <br></br>
@@ -20,7 +20,7 @@ const popover = (
         </p>
       </div>
       <div>
-        <h4>Moderate Carbon Footprint (B or Yellow):</h4>
+        <h4 className="yellow">Moderate Carbon Footprint (B or Yellow):</h4>
         <p>
           Represents an intermediate level of CO2 emissions.
           <br></br>There may be room for improvement in adopting more
@@ -28,7 +28,7 @@ const popover = (
         </p>
       </div>
       <div>
-        <h4>High Carbon Footprint (C or Red):</h4>
+        <h4 className="red">High Carbon Footprint (C or Red):</h4>
         <p>
           Signifies a relatively high level of CO2 emissions. <br></br>Entities
           with this grade may be contributing more significantly to<br></br>
