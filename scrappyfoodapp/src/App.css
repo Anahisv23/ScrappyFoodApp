@@ -24,10 +24,6 @@ button:hover {
   background-color: rgb(152, 184, 152);
 }
 
-.home-h2 {
-  font-size: xx-large;
-}
-
 .home-h3 {
   font-size: x-large;
 }
@@ -64,17 +60,6 @@ select {
   border-radius: 4px;
   background-color: white;
   width: 300px;
-}
-
-button {
-  background-color: #d8e183;
-  border-radius: 10px;
-  margin: 20px 0px 20px 0px;
-  width: 100px;
-  padding: 8px;
-  color: black;
-  font-family: "DM Serif Display", serif;
-  font-style: normal;
 }
 
 .search-inputs {
@@ -127,6 +112,11 @@ button {
     font-style: italic;
   }
 
+  .home-h2 {
+    font-size: xx-large;
+    margin: 20px;
+  }
+
   select {
     padding: 8px;
     border: 1px solid #ccc;
@@ -140,6 +130,17 @@ button {
     color: #2e4d3f;
     font-size: 60px;
     text-decoration: none;
+  }
+
+  button {
+    background-color: #d8e183;
+    border-radius: 10px;
+    margin: 20px 0px 20px 0px;
+    width: 200px;
+    padding: 8px;
+    color: black;
+    font-family: "DM Serif Display", serif;
+    font-style: normal;
   }
 
   .individual-recipes {
@@ -186,6 +187,10 @@ button {
     transition: all 0.3s ease;
   }
 
+  .home-h2 {
+    font-size: xx-large;
+  }
+
   .individual-recipes:hover {
     transform: scale(1.1);
   }
@@ -194,6 +199,17 @@ button {
     color: #2e4d3f;
     text-decoration: none;
     font-size: 70px;
+  }
+
+  button {
+    background-color: #d8e183;
+    border-radius: 10px;
+    margin: 20px 0px 20px 0px;
+    width: 200px;
+    padding: 8px;
+    color: black;
+    font-family: "DM Serif Display", serif;
+    font-style: normal;
   }
 
   .single-recipe {
